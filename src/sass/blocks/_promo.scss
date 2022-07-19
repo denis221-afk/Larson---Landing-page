@@ -1,0 +1,153 @@
+.promo{
+    position: relative;
+    min-height: 971px;
+    
+
+    &__footer{
+        min-width: 1080px;
+        height: 150px;
+        background-color: #fff;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+
+}
+
+.wrap__images{
+    width: 100%;
+   
+    display: none;
+
+
+    img{
+        min-height: 971px;
+        object-fit: cover;
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+
+.intro{
+    padding-top: 240px;
+    max-width: 300px;
+    margin-left: 20%;
+    position: relative;
+    &__title{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 90px;
+        /* or 112% */
+    
+        text-transform: capitalize;
+    
+        color: $White--color;
+    
+        span{
+            display: block;
+            color: $orange--color;
+        }
+    }
+
+
+    &::after{
+        content: "";
+        width: 140px;
+        height: 4px;
+        background: $orange--color;
+        display: block;
+    }
+}
+
+
+
+.intro__head{
+    z-index: 5;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.intro__link{
+    z-index: 5;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    border-bottom: 1px solid #ffff;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover{
+        color: #FBC710;
+    }
+}
+
+.footer__text{
+    z-index: 5;
+    max-width: 220px;
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+
+    color: #000000;
+    span{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 24px;
+        /* or 40% */
+        margin-right: 10px;
+
+        color: #000000;
+    }
+}
+}
+
+.promo__navigation{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+
+}
+
+
+.aroow{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    text-decoration: none;
+    letter-spacing: 0.2em;
+
+    color: #FFFFFF;
+}
+
+
+
+.aroow:hover{
+    color: #ffff;
+    text-decoration: none;
+}
+

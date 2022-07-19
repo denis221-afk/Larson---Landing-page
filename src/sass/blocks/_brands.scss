@@ -1,0 +1,12 @@
+.brend{
+    margin-top: 220px;
+
+    img{
+        max-width: 100px;
+        width: 100%;
+    }
+}
+.brend > div{
+    display: flex;
+    justify-content: space-around;
+}

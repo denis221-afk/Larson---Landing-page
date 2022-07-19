@@ -1,0 +1,111 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.navlogo{
+    position:relative;
+    margin-left: 20px;
+    flex: 10px 10px 10px;
+    
+    span{
+        display: block;
+    }
+
+    &:before{
+        content: "";
+        border: 2px solid $orange--color;
+        border-right: none;
+        width: 40px;
+        height: 140%;
+        position:absolute;
+        left: -20px;
+        top: -10px;
+
+
+    }
+}
+
+
+.logo__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: $dark--color;
+}
+
+
+.logo__subtitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: $dark--color;
+    opacity: 0.6;
+    
+
+}
+
+
+
+
+.nav__link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $dark--color;
+    margin-right: 50px;
+    &:hover{
+        color: $dark--color;
+        text-decoration: 000;
+    }
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.nav_contact {
+    a{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+}
+
+.btn__responsive{
+    span{
+        width: 20px;
+        height: 2px;
+        background-color: #000;
+        display: block;
+        margin: 6px 0;
+    }
+}
+
+
+.menu__responsive{
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 100;
+    box-shadow: 2px 1px 5px #c4c4c4;
+    transition: 1s ease;
+    position: fixed;
+    top:0;
+    left: -100%;
+}
+
+.btn__responsive{
+    display: none;
+}

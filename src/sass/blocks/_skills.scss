@@ -1,0 +1,32 @@
+.skills{
+    margin-top: 220px;
+    margin-bottom: 100px;
+
+    &__item{
+        display: flex;
+        align-items: center;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        /* or 131% */
+
+
+        color: #000000;
+        span{
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 70px;
+            display: inline-block;
+            margin-right: 10px;
+            color: #FBC710;
+        }
+    }
+}
+.skills > div{
+    display: flex;
+    justify-content: space-around;
+}
